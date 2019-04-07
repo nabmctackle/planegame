@@ -1,0 +1,15 @@
+<h1>Plane Game</h1>
+<h5> By Chris Anicello</h5>
+<button (click)="startGame()" class="btn btn-primary">Start</button>
+<div class="world">
+  <div *ngFor="let row of world">
+    <div class="column" *ngFor="let column of row">
+      <div class="empty" *ngIf="column==0"></div>
+      <div class="enemy" *ngIf="column==1"></div>
+      <div class="player" *ngIf="column==2"></div>
+      <div class="rightBullet" *ngIf="column==3"></div>
+      <div class="leftBullet" *ngIf="column==4"></div>
+    </div>
+  </div>
+
+</div>

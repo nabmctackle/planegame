@@ -1,0 +1,43 @@
+.world{
+    border: solid red 1px;
+}
+.player{
+    display: inline-block;
+    background-color: blue;
+    height: 80px;
+    width:80px;
+}
+.enemy{
+    display: inline-block;
+    background-color: red;
+    height: 80px;
+    width:80px;
+}
+.leftBullet{
+    display: inline-block;
+    background-color: purple;
+    height: 80px;
+    width:80px;
+}
+.rightBullet{
+    display: inline-block;
+    background-color:green;
+    height: 80px;
+    width:80px;
+}
+.testblock{
+    border:solid blue 1px;
+    display: inline-block;
+    height: 80px;
+    width:80px;
+}
+.empty{
+    background-color:white;
+    display: inline-block;
+    height: 80px;
+    width:80px;
+}
+.column{
+    display:inline-block;
+    border: dotted blue 1px;
+}
